@@ -58,7 +58,7 @@ const App = () => {
             transition={{ duration: 0.5 }}
             className="text-gray-500 text-center bg-slate-50 p-4 rounded-md shadow-sm"
           >
-            No tasks yet, add some!
+            Welcome to ToDoMe! <br /> Add some tasks...
           </motion.p>
         ) : (
           <TodoList
